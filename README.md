@@ -66,12 +66,10 @@ If input a cprrect first name with no sellinf mistake and it is in the data then
 ![image](https://github.com/user-attachments/assets/5ee40a89-2d7f-43a7-b058-dbe63c4b2de2)
 
 If input is empty 422 status code 
-
-If input name is not present in data :  404 status
 ![image](https://github.com/user-attachments/assets/81c63cfb-1289-4fcd-b5b7-d1bd8aaef70a)
 ![image](https://github.com/user-attachments/assets/10aca8f2-f728-4997-b0b7-ca3258da7dcc)
 
-
+If input name is not present in data :  404 status
 
 
 
