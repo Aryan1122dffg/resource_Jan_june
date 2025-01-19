@@ -31,7 +31,7 @@
 
 By effectively using these objects, you can create dynamic and interactive web applications in Flask.
 -------------------------------------------------------------------------------------------
-
+lab1 file
 Start the flask api server 
   ![image](https://github.com/user-attachments/assets/8df0070d-1618-49a3-89b1-bc84dd0cef92)
 
@@ -51,6 +51,7 @@ result : ![image](https://github.com/user-attachments/assets/183bf9cd-c50d-4291-
 
 
 -----------------------------------------------------------------------------------
+lab2 file
 Process input arguments
 It is common for clients to pass arguments in the URL. You will learn how to process arguments in this lab. The lab provides a list of people with their id, first name, last name, and address information in an object. Normally, this information is stored in a database, but you are using a hard coded list for your simple use case. This data was generated with Mockaroo.
 
@@ -72,6 +73,7 @@ If input is empty 422 status code
 If input name is not present in data :  404 status
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+lab3 file
 Summary of RESTful API with Flask
 This summary outlines the creation of a RESTful API using Flask, focusing on CRUD (Create, Read, Update, Delete) operations for a "person" resource.
 
@@ -116,6 +118,52 @@ The corresponding function (e.g., find_by_uuid, delete_by_uuid) processes the re
 The function performs actions like retrieving data, modifying data, or returning error messages.
 Flask returns a JSON response with relevant data or error information and a status code.
 This is a simplified example of a RESTful API with Flask. More complex APIs may involve additional functionalities like authentication, authorization, and handling different data formats.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+lab4 file 
+CODE: 
+![image](https://github.com/user-attachments/assets/d5bc929d-0881-49c6-8879-d36fac3abfde)
+
+
+RESULT:
+![image](https://github.com/user-attachments/assets/ec336d53-5e6b-4990-9622-e77f24fed5fc)
+![image](https://github.com/user-attachments/assets/a28724c8-78f6-4c3e-b877-95c536123fa2)
+
+
+![image](https://github.com/user-attachments/assets/f605c36d-65cf-41de-b7c4-03c6e8282206)
+![image](https://github.com/user-attachments/assets/21a617dc-64bb-4696-af87-70f731dd51be)
+![image](https://github.com/user-attachments/assets/a12521cf-d1c5-45e1-b04b-76add8922875)
+![image](https://github.com/user-attachments/assets/884ecd87-a161-453e-8ad3-d70f2cb19be7)
+
+
+Key Points from Step 4: Parse JSON from Request Body
+Functionality:
+
+This step focuses on creating a RESTful API endpoint that allows adding a new person to a data list.
+The client sends a POST request to /person with the person's details in JSON format within the request body.
+Server-side Processing:
+
+add_by_uuid method: This method handles POST requests to the /person endpoint.
+request.get_json(): This function retrieves the JSON data from the request body.
+if not new_person check: Ensures the request body is not empty or None.
+If empty/None, returns a 422 error with a message indicating "Invalid input parameter".
+(Optional) JSON Validation: In production, implement logic to validate the incoming JSON data for data integrity. (Omitted in this example)
+Appending to data list: The retrieved JSON (new_person) is appended to the data list (assuming it exists).
+If data is not defined, a 500 error with a message "data not defined" is returned.
+Success Response: Upon successful addition, the person's ID (extracted from new_person['id']) is returned in a JSON response with a 200 status code.
+Testing the Endpoint:
+
+Use CURL commands to send POST requests with JSON data (including an empty JSON test case).
+Observe the server's response codes and messages to verify expected behavior.
+In Summary:
+
+This step demonstrates parsing JSON data from a POST request and using it to add a new person to a data list. Error handling is included for empty requests and cases where data is not defined. Remember to implement JSON validation in production environments for data integrity.
+
+
+
+
+
 
 
 
