@@ -77,6 +77,15 @@ lab3 file
 Summary of RESTful API with Flask
 This summary outlines the creation of a RESTful API using Flask, focusing on CRUD (Create, Read, Update, Delete) operations for a "person" resource.
 
+Code : 
+![image](https://github.com/user-attachments/assets/4299ea67-cd4f-4b5a-9afb-36d067dea1d4)
+
+Resut : 
+![image](https://github.com/user-attachments/assets/8b0a1363-53c8-4d4d-bf17-3409b2c5da6e)
+![image](https://github.com/user-attachments/assets/ef9086b1-6930-4e26-958f-2c65b81b5932)
+![image](https://github.com/user-attachments/assets/54a1826c-1a23-4e50-a89c-f8e937396bc4)
+
+
 Key Concepts:
 
 RESTful API: A web API that adheres to REST (Representational State Transfer) principles, using URLs and HTTP methods to represent resources and actions.
