@@ -170,6 +170,23 @@ In Summary:
 This step demonstrates parsing JSON data from a POST request and using it to add a new person to a data list. Error handling is included for empty requests and cases where data is not defined. Remember to implement JSON validation in production environments for data integrity.
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                 ------------------------------------------------------------------------                ---------------
+![image](https://github.com/user-attachments/assets/053b312e-2b13-429b-baf9-f3f88251f27a)
+
+![image](https://github.com/user-attachments/assets/bcaef4b2-e7c2-4ef8-811a-1032fda27be8)
+
+![image](https://github.com/user-attachments/assets/c8102f64-bbea-452e-8635-626d7f774925)
+
+![image](https://github.com/user-attachments/assets/c3712fb4-1b27-4450-a6d1-61e14f1fb272)
+
+![image](https://github.com/user-attachments/assets/e398b935-6b8b-47a9-a613-17243d13339c)
+
+
+
+
+
+
+
 
 
 
